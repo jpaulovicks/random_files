@@ -1,0 +1,4 @@
+set oshell = wscript.createobject("wscript.shell")
+oshell.run "calc"
+wscript.sleep 1000
+oshell.appactive "Calculator"
